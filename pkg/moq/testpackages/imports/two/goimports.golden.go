@@ -6,7 +6,7 @@ package two
 import (
 	"sync"
 
-	"github.com/matryer/moq/pkg/moq/testpackages/imports/one"
+	"github.com/njupg/moq/pkg/moq/testpackages/imports/one"
 )
 
 // Ensure, that goimportsMock does implement DoSomething.

@@ -3,7 +3,7 @@ package registry_test
 import (
 	"testing"
 
-	"github.com/matryer/moq/internal/registry"
+	"github.com/njupg/moq/internal/registry"
 )
 
 func BenchmarkNew(b *testing.B) {

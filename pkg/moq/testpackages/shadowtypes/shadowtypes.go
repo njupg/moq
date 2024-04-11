@@ -1,7 +1,7 @@
 package shadowtypes
 
 import (
-	"github.com/matryer/moq/pkg/moq/testpackages/shadowtypes/types"
+	"github.com/njupg/moq/pkg/moq/testpackages/shadowtypes/types"
 )
 
 type ShadowTypes interface {

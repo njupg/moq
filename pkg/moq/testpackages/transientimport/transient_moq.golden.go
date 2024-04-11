@@ -4,11 +4,11 @@
 package transientimport
 
 import (
-	fourappv1 "github.com/matryer/moq/pkg/moq/testpackages/transientimport/four/app/v1"
-	transientimportonev1 "github.com/matryer/moq/pkg/moq/testpackages/transientimport/one/v1"
-	testpackagestransientimportonev1 "github.com/matryer/moq/pkg/moq/testpackages/transientimport/onev1"
-	threev1 "github.com/matryer/moq/pkg/moq/testpackages/transientimport/three/v1"
-	twoappv1 "github.com/matryer/moq/pkg/moq/testpackages/transientimport/two/app/v1"
+	fourappv1 "github.com/njupg/moq/pkg/moq/testpackages/transientimport/four/app/v1"
+	transientimportonev1 "github.com/njupg/moq/pkg/moq/testpackages/transientimport/one/v1"
+	testpackagestransientimportonev1 "github.com/njupg/moq/pkg/moq/testpackages/transientimport/onev1"
+	threev1 "github.com/njupg/moq/pkg/moq/testpackages/transientimport/three/v1"
+	twoappv1 "github.com/njupg/moq/pkg/moq/testpackages/transientimport/two/app/v1"
 	"sync"
 )
 

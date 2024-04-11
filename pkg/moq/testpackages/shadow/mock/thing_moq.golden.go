@@ -4,7 +4,7 @@
 package mock
 
 import (
-	shadowhttp "github.com/matryer/moq/pkg/moq/testpackages/shadow/http"
+	shadowhttp "github.com/njupg/moq/pkg/moq/testpackages/shadow/http"
 	nethttp "net/http"
 	"sync"
 )

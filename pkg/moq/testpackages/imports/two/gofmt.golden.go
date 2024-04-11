@@ -4,7 +4,7 @@
 package two
 
 import (
-	"github.com/matryer/moq/pkg/moq/testpackages/imports/one"
+	"github.com/njupg/moq/pkg/moq/testpackages/imports/one"
 	"sync"
 )
 

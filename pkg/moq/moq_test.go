@@ -284,7 +284,7 @@ func TestImports(t *testing.T) {
 	s := buf.String()
 	strs := []string{
 		`	"sync"`,
-		`	"github.com/matryer/moq/pkg/moq/testpackages/imports/one"`,
+		`	"github.com/njupg/moq/pkg/moq/testpackages/imports/one"`,
 	}
 	for _, str := range strs {
 		if !strings.Contains(s, str) {
@@ -540,7 +540,7 @@ func TestVendoredInterface(t *testing.T) {
 			t.Errorf("expected but missing: \"%s\"", str)
 		}
 	}
-	incorrectImport := `"github.com/matryer/moq/pkg/moq/testpackages/vendoring/vendor/github.com/sudo-suhas/moq-test-pkgs/somerepo"`
+	incorrectImport := `"github.com/njupg/moq/pkg/moq/testpackages/vendoring/vendor/github.com/sudo-suhas/moq-test-pkgs/somerepo"`
 	if strings.Contains(s, incorrectImport) {
 		t.Errorf("unexpected import: %s", incorrectImport)
 	}
@@ -705,7 +705,7 @@ func TestMockError(t *testing.T) {
 		{
 			name:     "UnexpectedType",
 			namePair: "Person",
-			wantErr:  "Person (github.com/matryer/moq/pkg/moq/testpackages/example.Person) is not an interface",
+			wantErr:  "Person (github.com/njupg/moq/pkg/moq/testpackages/example.Person) is not an interface",
 		},
 	}
 	for _, tc := range cases {

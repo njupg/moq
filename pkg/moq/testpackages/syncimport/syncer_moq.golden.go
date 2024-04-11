@@ -4,7 +4,7 @@
 package syncimport
 
 import (
-	"github.com/matryer/moq/pkg/moq/testpackages/syncimport/sync"
+	"github.com/njupg/moq/pkg/moq/testpackages/syncimport/sync"
 	stdsync "sync"
 )
 

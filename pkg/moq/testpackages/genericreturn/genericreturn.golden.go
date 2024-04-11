@@ -4,7 +4,7 @@
 package genericreturn
 
 import (
-	"github.com/matryer/moq/pkg/moq/testpackages/genericreturn/otherpackage"
+	"github.com/njupg/moq/pkg/moq/testpackages/genericreturn/otherpackage"
 	"sync"
 )
 

@@ -4,7 +4,7 @@
 package dotimport_test
 
 import (
-	"github.com/matryer/moq/pkg/moq/testpackages/dotimport"
+	"github.com/njupg/moq/pkg/moq/testpackages/dotimport"
 	"sync"
 )
 
